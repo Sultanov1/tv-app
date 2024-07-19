@@ -6,7 +6,9 @@ export interface Show {
     id: string;
     name: string;
     summary: string;
-    image: string;
+    image: {
+        medium: string;
+    };
 }
 
 export interface ShowState {
